@@ -1,8 +1,3 @@
-<h1 align="center" >
-    <img alt="Starter" title="Starter-Javascript"src="https://xesque.rocketseat.dev/platform/1580220889586.svg" width="200px";background-color = "#0ff"; />
-</h1>
-<br/>
-
 <h1 align="center">
     <img alt="Javascript" title="Javascript"src="https://xesque.rocketseat.dev/platform/1566444110414.png" width="px" />
 </h1>
