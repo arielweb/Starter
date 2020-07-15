@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <button>Clique aqui</button><br/>
+    </div>
+
+    <ul></ul>
+
+    <script>
+        var inputElement = document.querySelector('input');
+        var buttonElement = document.querySelector('button');
+
+
+        buttonElement.onclick = function() {
+
+            var div = document.createElement('div');
+            div.setAttribute('class', 'box');
+
+            div.style.width = '100px';
+            div.style.height = '100px';
+            div.style.display = 'inline-block';
+            div.style.backgroundColor = '#f00';
+            div.style.margin = '3px';
+
+            var novoDiv = document.querySelector('#app');
+            novoDiv.appendChild(div);
+
+            div.onmouseover = function() {
+                div.style.backgroundColor = getRandomColor();
+            }
+        }
+
+        function getRandomColor() {
+            var letters = "0123456789ABCDEF";
+            var color = "#";
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <div id="listName">
+        <input type="text" name="nome" placeholder="Digite o nome aqui">
+        <button onClick="adicionar()">Adicionar</button>
+        <ul></ul>
+
+    </div>
+
+    <script>
+        var listName = document.querySelector('#listName ul')
+        var textInput = document.querySelector('#listName input')
+        var bntElement = document.querySelector('#listName button')
+
+        var nomes = ["Diego", "Gabriel", "Lucas"];
+
+        function list() {
+            listName.innerHTML = ''
+
+            for (const nome of nomes) {
+
+                var liElement = document.createElement('li')
+                var textElement = document.createTextNode(nome)
+
+                liElement.appendChild(textElement)
+
+                listName.appendChild(liElement)
+
+
+            }
+        }
+
+        list()
+
+        function adicionar() {
+            var inputTex = textInput.value
+
+            if (inputTex != '') {
+                nomes.push(inputTex)
+
+                list()
+                textInput.value = ''
+            }
+
+        }
+
+        bntElement.onclick = adicionar
+    </script>
+</body>
+
+</html>
