@@ -1,5 +1,5 @@
-<h1 align="center">
-    <img alt="Starter" title="Starter-Javascript"src="https://xesque.rocketseat.dev/platform/1580220889586.svg" width="200px" />
+<h1 align="center" >
+    <img alt="Starter" title="Starter-Javascript"src="https://xesque.rocketseat.dev/platform/1580220889586.svg" width="200px";background-color = "#0ff"; />
 </h1>
 <br/>
 
@@ -12,7 +12,7 @@
 
 ### Exercícios Módulo 01 - Introdução JavaScript
 
-**1° exercício**
+### **1° exercício**
 
 Crie uma função que dado o objeto a seguir:
 
@@ -30,7 +30,7 @@ Retorne o seguinte conteúdo:
 
 `O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com nº 1293.`
 
-**2° exercício**
+### **2° exercício**
 
 Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
 
@@ -41,7 +41,7 @@ function pares(x, y) {
 pares(32, 321);
 ```
 
-**3° exercício** 
+### **3° exercício** 
 
 Escreva uma função que verifique se o vetor de habilidades passado possui a habilidade "Javascript"
 e retorna um booleano true/false caso exista ou não.
@@ -56,7 +56,7 @@ temHabilidade(skills); // true ou false
 
 _Dica: para verificar se um vetor contém um valor, utilize o método indexOf._
 
-**4° exercício**
+### **4° exercício**
 
 Escreva uma função que dado um total de anos de estudo retorna o quão experiente o usuário é:
 
@@ -72,7 +72,7 @@ experiencia(anosEstudo);
 // De 7 acima: Jedi Master
 ```
 
-**5° exercício**
+### **5° exercício**
 
 Dado o seguinte vetor de objetos:
 
@@ -98,13 +98,13 @@ com um separador utilize o join._
 
 ### Exercícios Módulo 02 - Manipulando a DOM 
 
-**1° exercício**
+### **1° exercício**
 
 Crie um botão que ao ser clicado cria um novo elemento em tela com a forma de um quadrado
 vermelho com 100px de altura e largura. Sempre que o botão for clicado um novo quadrado deve
 aparecer na tela.
 
-**2° exercício**
+### **2° exercício**
 
 Utilizando o resultado do primeiro desafio, toda vez que o usuário passar o mouse por cima de
 algum quadrado troque sua cor para uma cor aleatória gerada pela função abaixo:
@@ -121,7 +121,7 @@ function getRandomColor() {
 var newColor = getRandomColor(); // #E943F0
 ```
 
-**3° exercício**
+### **3° exercício**
 
 A partir do seguinte vetor:
 
@@ -131,11 +131,11 @@ var nomes = ["Diego", "Gabriel", "Lucas"];
 
 Preencha uma lista ```<ul>``` no HTML com os itens da seguinte forma:
 
-.Diego
-.Gabriel
-.Lucas
+* Diego
+* Gabriel
+* Lucas
 
-**4° exercício**
+### **4° exercício**
 
 Seguindo o resultado do exercício anterior adicione um input em tela e um botão como a seguir:
 
@@ -156,7 +156,7 @@ Criado aplicativo Todo List no qual armazena os dados na localStorage. Cria e ex
 
 ### Exercícios Módulo 04 - JS Assíncrono
 
-**1° exercício**
+### **1° exercício**
 Crie uma função que recebe a idade de um usuário e retorna uma Promise que depois de 2
 segundos retornará se usuário é maior ou não que 18 anos. Se o usuário ter mais que 18 anos de
 idade o resultado deve cair no `.then,` caso contrário, no `.catch`
@@ -175,7 +175,7 @@ checaIdade(20)
 
 ```
 
-**2°  exercício**
+### **2°  exercício**
 Crie uma tela com um
 `<input>` que deve receber o nome de um usuário no Github. Após digitar o
 nome do usuário e clicar no botão buscar a aplicação deve buscar pela API do Github (conforme
@@ -200,7 +200,7 @@ Depois de preencher o input e adicionar, a seguinte lista deve aparecer abaixo:
 </ul>
 ```
 
-**3° exercício**
+### **3° exercício**
 A partir do resultado do exemplo anterior adicione um indicador de carregamento em tela no lugar
 da lista apenas enquanto a requisição estiver acontecendo:
 
