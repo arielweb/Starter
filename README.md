@@ -205,3 +205,8 @@ da lista apenas enquanto a requisição estiver acontecendo:
 
 Além disso, adicione uma mensagem de erro em tela caso o usuário no Github não exista.
 Dica: Quando o usuário não existe, a requisição irá cair no .catch com código de erro 404.
+
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
